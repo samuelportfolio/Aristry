@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artist Samuel</title>
+  <meta name="description" content="Samuel Tamene – Ethiopian visual artist exploring culture, spirituality, and urban life through painting and mixed media." />
+  <style>
+    body { margin: 0; font-family: Arial, sans-serif; background: #fff; color: #333; }
+    header, footer { background: #222; color: #fff; padding: 1em 2em; text-align: center; }
+    nav a { color: #fff; margin: 0 1em; text-decoration: none; font-weight: bold; }
+    nav a:hover { text-decoration: underline; }
+    .container { padding: 2em; max-width: 900px; margin: auto; }
+    .hero { text-align: center; padding: 3em 1em; background: #f4f4f4; }
+    .hero a {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.5em 1em;
+      background: #222;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .gallery { display: flex; flex-wrap: wrap; justify-content: center; gap: 1em; }
+    .gallery figure {
+      margin: 0;
+      max-width: 300px;
+      text-align: center;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .gallery figcaption {
+      margin-top: 0.5em;
+      font-style: italic;
+    }
+    .contact-info { text-align: center; font-size: 1.1em; }
+    form { text-align: center; margin-top: 2em; }
+    input, textarea {
+      padding: 0.5em;
+      margin: 0.5em;
+      width: 80%;
+      max-width: 400px;
+      font-family: inherit;
+    }
+    button {
+      padding: 0.5em 1em;
+      background: #222;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    @media (max-width: 600px) {
+      nav a { display: block; margin: 0.5em 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Samuel – Visual Artist</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h2>Welcome to My Art World</h2>
+      <p>Inspired by Ethiopian culture, spirituality, and urban life.</p>
+      <img src="IMG_20250703_181348_185.jpg" alt="Featured artwork" loading="lazy" />
+      <a href="#gallery">Explore My Work</a>
+    </section>
+
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <p>I'm Samuel, a passionate visual artist based in Ethiopia. My work explores the intersection of tradition and modernity, drawing from Ethiopian culture, spirituality, and urban experiences. Through painting and mixed media, I tell stories that reflect identity, emotion, and social landscapes.</p>
+    </section>
+
+    <section id="gallery" class="container">
+      <h2>Gallery</h2>
+      <div class="gallery">
+
+        <figure>
+          <img src="IMG_20250703_181306_834.jpg" alt="Art 1 - Traditional Urban Fusion" loading="lazy" />
+          <figcaption>Traditional Urban Fusion</figcaption>
+        </figure>
+        <figure>
+          <img src="IMG_20250703_181314_461.jpg" alt="Art 2 - Spiritual Expression" loading="lazy" />
+          <figcaption>Spiritual Expression</figcaption>
+        </figure>
+        <figure>
+          <img src="IMG_20250703_181317_394.jpg" alt="Art 3 - Mosaic Identity" loading="lazy" />
+          <figcaption>Mosaic Identity</figcaption>
+        </figure>
+        <figure>
+          <img src="IMG_20250703_181322_751.jpg" alt="Art 4 - Cultural Rhythm" loading="lazy" />
+          <figcaption>Cultural Rhythm</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:Samueltamene821@gmail.com">Samueltamene821@gmail.com</a></p>
+        <p>Instagram: <a href="https://instagram.com/laxx_samiii" target="_blank">@laxx_samiii</a></p>
+      </div>
+      <form action="mailto:Samueltamene821@gmail.com" method="post" enctype="text/plain">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="4" placeholder="Your Message"></textarea><br />
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Samuel. All rights reserved.</p>
+  </footer>
+</body>
+</html>
